@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-export default function OperdorTernario() {
+export default function Arrays() {
     const [testePS, settestePS] = useState([])
     const [testePSFilter, settestePSFilter] = useState([])
     const [name, setName] = useState('')
@@ -40,7 +40,6 @@ export default function OperdorTernario() {
         let foundFindIndex = testePS.findIndex((element) => element === item)
         console.log("FIND:", foundFind)
         console.log("FIND INDEX:", foundFindIndex)
-
     }
 
     //map esse serve para listagem, ou manipulação de dados, esta na parte de HTML
